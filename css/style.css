@@ -1,0 +1,297 @@
+/* 
+ **
+ ***  CSS  
+ **
+ */
+
+/* Navbar */
+
+.navbar{
+    height: 90px;
+    width: auto;
+}
+
+#logo{
+    width: 14rem;
+    height: auto;
+    margin-top: 10px;
+}
+.navlik{
+    margin-right: 10rem;
+}
+
+/* Footer */
+
+.footer{ 
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 0;
+    top: 88%;
+    width: 100%;
+}
+
+/* Inicio */
+
+.contenedor-carrusel{
+    box-shadow: 2px 3px 3px black;  
+}
+
+#carouselExampleCaptions{
+    margin: auto;
+    width: 100%;
+    height: 25%;
+}
+
+#carouselExampleCaptions #slide{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+.carousel-inner>.item {
+    display: none;
+    position: relative;
+    -webkit-transition: .6s ease-in-out left;
+    -o-transition: .6s ease-in-out left;
+    transition: .6s ease-in-out left;
+}
+
+.carousel-inner>.item {
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+}
+
+#bienvenida{
+    margin:auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+#Titulo-centro{
+    color: #ea1a68;
+    text-shadow: 2px 2px 2px black;
+    font-family: Copperplate, Papyrus, fantasy;                                       
+    font-size: 5rem;
+}
+
+#Titulo-centro-2{
+    color: #202f35;
+    text-shadow: 1px 1px 2px black;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 3rem;
+}
+
+#bienvenida #parrafo-centro{
+    text-align: justify;
+    margin: auto;
+    padding: 15px;
+    width: 40rem;
+    font-family: 'Times New Roman',serif;
+    font-size: 1.5rem;
+}
+
+#parrafo-centro-3{
+    text-align: right;
+    margin: auto;
+    padding: 10px;
+    width: 70rem;
+    font-family: 'Times New Roman',serif;
+    font-size: 1.5rem;
+}
+#divisor{
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+
+#bienvenida-2{
+    margin:auto;
+    padding: 2rem;
+    text-align: left;
+}
+
+#noalcovid{
+    color:white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#parrafo-centro{
+    text-align: justify;
+    font-family: 'Times New Roman', serif;
+    font-size: 1.5rem;
+}
+
+#derecha #vacaciones{
+    width: 30rem;
+    border-radius: 360px;
+    box-shadow: 0px 0px 11px 3px black;
+    margin-left: 5rem;
+}
+
+#bienvenida-3{
+    margin:center;
+    padding: 2rem;
+    text-align: justify;
+}
+
+/* Login */
+
+#login{
+    margin: auto;
+}
+
+.formulario{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+#img_sign{
+    width: 19vw;
+    margin: auto;
+}
+
+.upper{
+    background-image: url("../img/login_bg.jpg");
+}
+
+#titulo-form{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5vw;
+    color: white;
+    text-shadow: 1px 3px 3px black;
+}
+
+.card{
+    margin:auto;
+    width: 35%;
+    text-align: center;
+    box-shadow: 2px 3px 3px gray;
+}
+
+.form-group{
+    text-align: center;
+    padding: 0.2rem;
+    font-size: 1vw;
+}
+
+#dropdown-divider-form{
+    width: 30rem;
+    margin-left: 5%;
+}
+
+.label-form{
+    width: 7rem;
+    text-align: left;
+}
+
+#form-input{
+    margin-left: 2rem;
+}
+
+.registrate{
+    margin-top: 1rem;
+}
+
+#login-btn{
+    background-color: #ea1a68;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px black;
+    color:white;
+    border-color: #ea1a66a6;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#login-btn:hover{
+    background-color: hotpink;
+}
+
+/* User */
+
+#user-inicial{
+    background-image: url("../img/user_background.jpg");
+    box-shadow: 2px 3px 3px black;
+}
+
+#user-title{
+    margin-left: 5rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-family: Copperplate, Papyrus, fantasy;                                        
+    font-size: 2rem;
+}
+
+#user-descrp{
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    margin-left: 5rem;
+    padding: 10px;
+    width: 70rem;
+    font-family: 'Times New Roman',serif;
+    font-size: 1.5rem;
+}
+
+.tz-gallery{
+    padding: 4rem;
+    margin-top: 0rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#habitacion_img{
+    width: 23rem;
+    height: auto;
+    margin-bottom: 1rem;
+    box-shadow: 3px 3px 3px black;
+}
+
+#habitacion_img:hover{
+    box-shadow: 3px 3px 3px hotpink;
+}
+
+#titulo-habitacion{
+    margin: auto;
+    text-align: left;
+    font-size: 1.5vw;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    text-shadow: 2px 2px 2px black;
+}
+
+#titulo-habitacion:hover{
+    color: hotpink;
+    text-shadow: 2px 2px 2px black;
+}
+
+#descrip-habitacion{
+    margin: auto;
+    text-align: left;
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+    text-shadow: 2px 2px 2px black;
+}
+
+/* Admin */
+
+#admin-inicial{
+    background-image: url("../img/admin_background.jpg");
+    box-shadow: 2px 3px 3px black;
+}
+
+#admin-title{
+    margin-left: 4rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+    font-family: Copperplate, Papyrus, fantasy;                                   
+    font-size: 2vw;
+}

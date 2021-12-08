@@ -1,2 +1,3 @@
-# lotus_electivaI
-Proyecto Final de Electiva I TIC Computación en la Nube
+# administrationHotelElectiva
+Source: https://osmv18-hotel.herokuapp.com/
+ Proyecto Final de Electiva II - Teresita  Guido - Osmin Medrano
